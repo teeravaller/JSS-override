@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Slack-override</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+		<false/>
+		<key>DOWNLOAD_URL</key>
+		<string>https://slack.com/ssb/download-osx</string>
+		<key>NAME</key>
+		<string>Slack</string>
+		<key>PKG_ID</key>
+		<string>com.tinyspeck.slackmacgap</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Popular Software</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Slack.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.Slack</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jss-recipes.jss.Slack</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5124bee73a07813ad31261e94ccfbb24990940c2</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Slack/Slack.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>a351e4889e2b36fe0f7232c097f5c823043fd436a6e4da40e64eed488e7a2776</string>
+			</dict>
+			<key>com.github.killahquam.download.slack</key>
+			<dict>
+				<key>git_hash</key>
+				<string>40ad9bb8cfd94df951bb24f6418ad158a2b1c9e1</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.killahquam-recipes/Slack/Slack.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>22b579a5f12fb18798a303af72facd23beca0c94cc30757aafbc0776c9085b25</string>
+			</dict>
+			<key>com.github.killahquam.pkg.slack</key>
+			<dict>
+				<key>git_hash</key>
+				<string>4498bc796d2a730236fee65af03ab6eca8ebe140</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.killahquam-recipes/Slack/Slack.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>afb12cbbca11367ac52f723906f30b01db3eefc23df29a2597878d8e679feb24</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

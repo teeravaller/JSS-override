@@ -15,7 +15,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>Smarsh Software</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>/Users/admin/Desktop/PolicyTemplate.xml</string>
+		<string>PolicyTemplate.xml</string>
 		<key>PRODUCTID</key>
 		<string>869428</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
@@ -55,12 +55,10 @@
 			</dict>
 			<key>com.github.rtrouton.pkg.microsoftteams</key>
 			<dict>
-				<key>git_hash</key>
-				<string>ccb1573111f263e913f8e4b81e1c1b5f2785abb7</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftTeams/MicrosoftTeams.pkg.recipe</string>
 				<key>sha256_hash</key>
-				<string>accc99647dbff0587dd9e2df1920f798abb58dc7047f48ba7f8af202f52d97eb</string>
+				<string>fc45c5ad34028f5ddc77c10e001d740c47c1572d12672cc7cb62e6e879b26bf3</string>
 			</dict>
 		</dict>
 	</dict>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Firefox-override</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Web Browsers and Internet Utilities</string>
+		<key>DESCRIPTION</key>
+		<string>Web Browser.</string>
+		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+		<false/>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/Firefox.png</string>
+		<key>LOCALE</key>
+		<string>en-US</string>
+		<key>NAME</key>
+		<string>Firefox</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Popular Software</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+		<key>RELEASE</key>
+		<string>latest</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.jss.Firefox</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>MozillaURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>83628dadcfbe7726c7b4fca960eef9d713384c9c</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Mozilla/MozillaURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>3faa6a09292c3a8e1f2fd62c15704d448c62703020674981432ab3d53851a8df</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.firefox-rc-en_US</key>
+			<dict>
+				<key>git_hash</key>
+				<string>192a4b85749fd12fdcc837bb5caa124d487b2538</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Mozilla/Firefox.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>8d1429a6bda5be11cc69eccf1c7f1b6044ecb068f8f3de4a87e359e855f2a05d</string>
+			</dict>
+			<key>com.github.rtrouton.jss.Firefox</key>
+			<dict>
+				<key>git_hash</key>
+				<string>42544a436263fd20e98dc343d47b09d1e0231558</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/Firefox.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>3412e51b1a97ebb5f7e9d526eb3b8d355113c55aec4aea921bd6a44484ea28d8</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.Firefox</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3a3564e58053ad161b7c0d4bc823c7d3fc860e94</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/Firefox/Firefox.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>afa513b78bf8e070d2361dcc0840c0fab42d9167ffc85a2e453fba0dbd1f46ab</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

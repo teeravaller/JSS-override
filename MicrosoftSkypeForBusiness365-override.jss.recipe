@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.MicrosoftSkypeForBusiness365-override</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Microsoft</string>
+		<key>DOWNLOADURL</key>
+		<string>https://go.microsoft.com/fwlink/?linkid=%PRODUCTID%</string>
+		<key>NAME</key>
+		<string>Skype for Business</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Smarsh Software</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>PRODUCTID</key>
+		<string>832978</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Skype for Business is an instant-messaging client used with Skype for Business Server or with Skype for Business Online (available with Microsoft Office 365)</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%RECIPE_DIR%/SkypeForBusiness.png</string>
+		<key>SOFTWARETITLE</key>
+		<string>Skype_For_Business</string>
+		<key>VENDOR</key>
+		<string>Microsoft</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.jss.skypeforbusiness365</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.download.skypeforbusiness365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2d9cc8c17f18b443df6c18d5c1c50f6bcb1aa8d9</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftSkypeForBusiness365/MicrosoftSkypeForBusiness365.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>215c6cd0d0f2f5c9ea9964c18f0e9b25af91702b31e81bc35446202b197abe96</string>
+			</dict>
+			<key>com.github.rtrouton.jss.skypeforbusiness365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2d9cc8c17f18b443df6c18d5c1c50f6bcb1aa8d9</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/MicrosoftSkypeForBusiness365.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>d549011338ecf08f3e461ea5dad4c46541f333f787b8a279a45f5963537435e9</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.skypeforbusiness365</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftSkypeForBusiness365/MicrosoftSkypeForBusiness365.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>8d1979ee6ba8fb3921a78e8c7ebc2d13aeaf9d05d7543b04b606661dda65de53</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

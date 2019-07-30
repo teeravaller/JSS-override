@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.MicrosoftOneDrive-override</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Microsoft</string>
+		<key>DOWNLOADURL</key>
+		<string>https://go.microsoft.com/fwlink/?linkid=%PRODUCTID%</string>
+		<key>NAME</key>
+		<string>OneDrive</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Smarsh Software</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>PRODUCTID</key>
+		<string>823060</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Get to your files from anywhere, on any device, with Microsoft OneDrive. Share and work together with anyone in your work and life. With OneDrive for Business, you also get storage for your work files so you can share and collaborate on them with other people at your work or school/university. The OneDrive app for Mac makes it easy to work with your OneDrive files on your Mac.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%RECIPE_DIR%/OneDrive.png</string>
+		<key>SOFTWARETITLE</key>
+		<string>OneDrive</string>
+		<key>VENDOR</key>
+		<string>Microsoft</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.jss.MicrosoftOneDrive</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.download.microsoftonedrive</key>
+			<dict>
+				<key>git_hash</key>
+				<string>47aeca541bc55a0e0216ad524fcbda1aa80049a5</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftOneDrive/MicrosoftOneDrive.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>7718c1c2296c2ea2705df6e7b4378c9d7619f85244be5d55c03f095e7a509e45</string>
+			</dict>
+			<key>com.github.rtrouton.jss.MicrosoftOneDrive</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e9c657a2621036f77cf77d3db3220e1d099767de</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/MicrosoftOneDrive.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>45cb16ba27150e834726056e3a1c07008f0de5b0a3cd0be63ee233638ccbae45</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.microsoftonedrive</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftOneDrive/MicrosoftOneDrive.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>c4a78341178437c64b6f5d60192f7c5fe99c02548e5847cac8cafd833d54dc8d</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
